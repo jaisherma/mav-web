@@ -64,13 +64,7 @@
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-lang3</artifactId>
                 <version>3.12.0</version>
-            </dependency>
-             <dependency>
-                      <!-- https://mvnrepository.com/artifact/org.jenkins-ci.tools/maven-hpi-plugin -->
-    <groupId>org.jenkins-ci.tools</groupId>
-    <artifactId>maven-hpi-plugin</artifactId>
-    <version>3.17</version>
-       </dependency>    
+            </dependency> 
         </dependencies>
     </dependencyManagement>
 
@@ -82,6 +76,11 @@
                     <artifactId>release-candidate-maven-plugin</artifactId>
                     <version>1.0-201605132325.9e7d5be</version>
                 </plugin>
+                 <plugin>                
+                 <groupId>org.jenkins-ci.tools</groupId>
+                <artifactId>maven-hpi-plugin</artifactId>
+                <version>3.17</version>
+                </plugin>   
             </plugins>
         </pluginManagement> 
         <plugins>
