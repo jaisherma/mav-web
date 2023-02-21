@@ -209,6 +209,11 @@
 
     <build>
         <plugins>
+                 <plugin>
+                          <groupId>org.jenkins-ci.tools</groupId>
+                          <artifactId>maven-hpi-plugin</artifactId>
+                          <version>3.27</version>
+                  </plugin>
             <plugin>
                 <groupId>biz.gabrys.maven.plugins</groupId>
                 <artifactId>lesscss-maven-plugin</artifactId>
