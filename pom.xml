@@ -71,6 +71,12 @@
   <version>3.38</version>
   <type>maven-plugin</type>
 </dependency>
+                 <dependency>
+    <groupId>org.jenkins-ci.tools</groupId>
+    <artifactId>maven-hpi-plugin</artifactId>
+    <version>3.27</version>
+</dependency>
+
         </dependencies>
              
     </dependencyManagement>
