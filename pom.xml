@@ -65,7 +65,14 @@
                 <artifactId>commons-lang3</artifactId>
                 <version>3.12.0</version>
             </dependency> 
+                 <dependency>
+  <groupId>org.jenkins-ci.tools</groupId>
+  <artifactId>maven-hpi-plugin</artifactId>
+  <version>3.38</version>
+  <type>maven-plugin</type>
+</dependency>
         </dependencies>
+             
     </dependencyManagement>
 
     <build>
@@ -80,12 +87,6 @@
             </plugins>
         </pluginManagement> 
         <plugins>
-               
-<plugin>
-    <groupId>org.jenkins-ci.tools</groupId>
-    <artifactId>maven-hpi-plugin</artifactId>
-    <version>3.27</version>
-</plugin>
 
             <plugin>
                 <groupId>com.smartcodeltd</groupId>
