@@ -71,6 +71,11 @@
     <build>
         <pluginManagement>
             <plugins>
+                  <plugin>
+                  <groupId>org.jenkins-ci.tools</groupId>
+                  <artifactId>maven-hpi-plugin</artifactId>
+                  <version>3.17</version>
+               </plugin>
                 <plugin>
                     <groupId>com.smartcodeltd</groupId>
                     <artifactId>release-candidate-maven-plugin</artifactId>
@@ -80,11 +85,6 @@
         </pluginManagement>
 
         <plugins>
-                 <plugin>
-                  <groupId>org.jenkins-ci.tools</groupId>
-                  <artifactId>maven-hpi-plugin</artifactId>
-                  <version>3.17</version>
-               </plugin>
             <plugin>
                 <groupId>com.smartcodeltd</groupId>
                 <artifactId>release-candidate-maven-plugin</artifactId>
